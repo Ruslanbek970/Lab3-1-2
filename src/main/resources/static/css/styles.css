@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+    padding: 10px 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.failed {
+    background-color: #ffcccc !important;
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+}
+
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+}
